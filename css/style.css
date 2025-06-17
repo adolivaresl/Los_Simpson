@@ -25,6 +25,12 @@ h1 {
     letter-spacing: 2px;
     -webkit-text-stroke: 1px black;
 }
+
+h5 {
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -47,12 +53,12 @@ nav{
     overflow: hidden;
     text-align: center;
 } */
-li {
+.nav-main li{
     display: inline;
     float: left;
     text-align: center;
 }
-li a {
+.nav-main li a {
     font-family: 'Simpsonfont', sans-serif;
     color: #FFD700;
     padding: 12px;
@@ -148,4 +154,36 @@ li a {
     max-width: 70%;
     border-radius: 8px;
     border: 1px solid #CCCCCC;
+}
+
+footer{
+    background-color: #000000;
+    color: #FFD700;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.dashed-border{
+    border-left: 1px dashed #FFD700;
+ }
+
+footer ul{
+    list-style-type: none
+}
+
+footer ul li{
+    margin: 1em 0;
+}
+footer li a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #FFD700;
+    
+}
+
+.created{
+    text-align: center;
+    font-family: 'Simpsonfont', sans-serif;
+    margin-top: 1.2em;
 }
