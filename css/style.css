@@ -44,15 +44,6 @@ nav{
     display: flex;
     justify-self: center;
 }
-/* ul {
-    font-family: 'Simpsonfont', sans-serif;
-    color: #FFD700;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-} */
 .nav-main li{
     display: inline;
     float: left;
