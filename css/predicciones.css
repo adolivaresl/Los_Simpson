@@ -1,0 +1,41 @@
+.paper{
+    background-color: #EBD4B3;
+    border-radius: 8px;
+    padding: 2rem 3rem;
+    font-family: "Libre Baskerville", serif;
+}
+
+.paper h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #4A3C2A;
+}
+
+.subtitle h6{
+    text-align: center;
+}
+
+.subtitle{
+    border-top: 1px solid #4A3C2A;
+    border-bottom: 1px solid #4A3C2A;
+    padding: 1rem 0
+}
+
+.notice-with-image{
+    text-align: center ;
+}
+.notice-with-image img{
+    width: 160px;
+    height: auto;
+}
+.vertical-divisor{
+    border-left: 1px solid #4A3C2A;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+.coupon{
+    border: 1px dashed #4A3C2A;
+}
+
