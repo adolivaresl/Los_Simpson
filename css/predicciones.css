@@ -26,8 +26,23 @@
     text-align: center ;
 }
 .notice-with-image img{
-    width: 160px;
+    max-width: 285px;
     height: auto;
+}
+
+.notice-with-image p{
+    margin-top: 1rem;
+}
+
+.news h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+}
+.news article{
+    padding: 1rem;
+    border-bottom: 1px solid #4A3C2A;
 }
 .vertical-divisor{
     border-left: 1px solid #4A3C2A;
@@ -36,6 +51,17 @@
 }
 
 .coupon{
-    border: 1px dashed #4A3C2A;
+    border: 2px dashed #4A3C2A;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.coupon-grill{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+.quote{
+    font-size: 13px;
+}
