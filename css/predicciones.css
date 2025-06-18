@@ -1,0 +1,67 @@
+.paper{
+    background-color: #EBD4B3;
+    border-radius: 8px;
+    padding: 2rem 3rem;
+    font-family: "Libre Baskerville", serif;
+}
+
+.paper h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #4A3C2A;
+}
+
+.subtitle h6{
+    text-align: center;
+}
+
+.subtitle{
+    border-top: 1px solid #4A3C2A;
+    border-bottom: 1px solid #4A3C2A;
+    padding: 1rem 0
+}
+
+.notice-with-image{
+    text-align: center ;
+}
+.notice-with-image img{
+    max-width: 285px;
+    height: auto;
+}
+
+.notice-with-image p{
+    margin-top: 1rem;
+}
+
+.news h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+}
+.news article{
+    padding: 1rem;
+    border-bottom: 1px solid #4A3C2A;
+}
+.vertical-divisor{
+    border-left: 1px solid #4A3C2A;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+.coupon{
+    border: 2px dashed #4A3C2A;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.coupon-grill{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 13px;
+}
