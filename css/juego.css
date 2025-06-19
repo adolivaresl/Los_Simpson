@@ -1,0 +1,27 @@
+.card {
+    max-width: 18rem;
+    max-height: 410px;
+    margin: 15px;
+}
+
+.card h2{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.quiz h1{
+    font-family: Opera Sans, sans-serif;
+}
