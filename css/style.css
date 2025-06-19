@@ -155,6 +155,7 @@ footer{
 }
 .dashed-border{
     border-left: 1px dashed #FFD700;
+    padding-left: 50px;;
  }
 
 footer ul{
@@ -167,14 +168,29 @@ footer ul li{
 footer li a{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: #FFD700;
     
 }
 
+footer img{
+    max-width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+footer h4{
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+    margin-bottom: 1em;
+    text-align: center;
+}
 .created{
     text-align: center;
     font-family: 'Simpsonfont', sans-serif;
     margin-top: 1.2em;
+}
+.welcome{
+    text-align: center;;
 }
