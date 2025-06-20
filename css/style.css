@@ -4,16 +4,19 @@
     font-weight: normal;
     font-style: normal;
 }
-.simpsons-header{
-    
+.simpsons-header{  
     padding-bottom: 0;
+    text-align: center;
+    font-weight: 700;
 }
+
 body {
     margin: 0;
     padding: 0;
     background: url('../imagenes/background.jpg');
     background-size: cover;
 }
+
 h1 {
     font-family: 'Simpsonfont', sans-serif;
     color: #FFD700;
@@ -34,9 +37,9 @@ h5 {
 nav{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    width: 100%;
+    width: 100%;;
 }
+
 .rosca{
     background: url('../imagenes/rosca.png') no-repeat center center;
     background-size: cover;
@@ -44,12 +47,20 @@ nav{
     display: flex;
     justify-self: center;
 }
-.nav-main li{
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-list li{
     display: inline;
     float: left;
     text-align: center;
 }
-.nav-main li a {
+
+.nav-list li a {
     font-family: 'Simpsonfont', sans-serif;
     color: #FFD700;
     padding: 12px;
@@ -61,6 +72,7 @@ nav{
 .container-phone {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;;
 }
 .phone {
     background: url('../imagenes/vintage_patron.png');
@@ -155,6 +167,7 @@ footer{
 }
 .dashed-border{
     border-left: 1px dashed #FFD700;
+    padding-left: 50px;;
  }
 
 footer ul{
@@ -167,14 +180,29 @@ footer ul li{
 footer li a{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: #FFD700;
     
 }
 
+footer img{
+    max-width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+footer h4{
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+    margin-bottom: 1em;
+    text-align: center;
+}
 .created{
     text-align: center;
     font-family: 'Simpsonfont', sans-serif;
     margin-top: 1.2em;
+}
+.welcome{
+    text-align: center;;
 }
