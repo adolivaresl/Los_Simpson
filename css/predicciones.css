@@ -3,6 +3,7 @@
     border-radius: 8px;
     padding: 2rem 3rem;
     font-family: "Libre Baskerville", serif;
+    margin-top: 1.2rem;
 }
 
 .paper h1{
@@ -32,6 +33,7 @@
 
 .notice-with-image p{
     margin-top: 1rem;
+    font-size: 0.8rem;;
 }
 
 .news h2{
@@ -47,7 +49,6 @@
 .vertical-divisor{
     border-left: 1px solid #4A3C2A;
     height: 100%;
-    margin: 0 1rem;
 }
 
 .coupon{
@@ -55,6 +56,11 @@
     text-align: center;
     padding: 10px;
     margin-top: 10px;
+}
+
+.coupon p {
+    font-size: 0.8rem;
+    margin: 0;
 }
 .coupon-grill{
     margin-left: 10px;

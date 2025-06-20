@@ -70,6 +70,7 @@ nav{
 .container-phone {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;;
 }
 .phone {
     background: url('../imagenes/vintage_patron.png');
