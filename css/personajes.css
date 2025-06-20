@@ -1,0 +1,15 @@
+.container-cards{
+    margin: 1em;
+}
+.card{
+    height: 450px;
+    padding: 1em;
+}
+.card-img {
+    max-width: 150px;         
+    height: auto;
+    margin: 5px auto;
+}
+.card-body{
+    overflow-y: scroll;
+}
