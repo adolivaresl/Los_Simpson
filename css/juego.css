@@ -22,6 +22,15 @@
     padding-bottom: 10px;
 }
 
-.quiz h1{
+.quiz h2, .quiz p{
     font-family: Opera Sans, sans-serif;
+    text-align: center;
+}
+
+.quiz {
+    margin-top: 1rem;
+}
+
+.result {
+    margin-top: 1.8rem;
 }
