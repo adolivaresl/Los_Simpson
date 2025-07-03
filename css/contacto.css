@@ -1,0 +1,14 @@
+.form-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    max-width: 800px;
+    background-color: #ffffff; 
+    margin: 1rem;  
+    padding: 2rem;
+    border-radius: 10px;
+
+}
