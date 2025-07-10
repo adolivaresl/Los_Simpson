@@ -47,7 +47,6 @@ nav{
     display: flex;
     justify-self: center;
 }
-
 .nav-list {
     display: flex;
     justify-content: space-between;
