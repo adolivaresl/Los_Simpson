@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 @font-face {
     font-family: 'Simpsonfont';
     src: url('https://github.com/adolivaresl/prueba_font/blob/main/Simpsonfont.otf') format('truetype');
@@ -47,7 +48,6 @@ nav{
     display: flex;
     justify-self: center;
 }
-
 .nav-list {
     display: flex;
     justify-content: space-between;
@@ -69,6 +69,56 @@ nav{
     letter-spacing: 2px;
     -webkit-text-stroke: 1px black;
 }
+
+footer{
+    background-color: #000000;
+    color: #FFD700;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.dashed-border{
+    border-left: 1px dashed #FFD700;
+    padding-left: 50px;;
+ }
+
+footer ul{
+    list-style-type: none
+}
+
+footer ul li{
+    margin: 1em 0;
+}
+footer li a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #FFD700;
+    
+}
+
+footer img{
+    max-width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+footer h4{
+    font-family: 'Simpsonfont', sans-serif;
+    color: #FFD700;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.created{
+    text-align: center;
+    font-family: 'Simpsonfont', sans-serif;
+    margin-top: 1.2em;
+}
+.welcome{
+    text-align: center;;
+}
+
+/*ESTILOS HISTORIA*/
 .container-phone {
     display: flex;
     justify-content: center;
@@ -159,50 +209,175 @@ nav{
     border: 1px solid #CCCCCC;
 }
 
-footer{
-    background-color: #000000;
-    color: #FFD700;
-    padding: 2rem;
-    margin-top: 2rem;
+/*ESTILOS PERSONAJES */
+.container-cards{
+    margin: 1em;
 }
-.dashed-border{
-    border-left: 1px dashed #FFD700;
-    padding-left: 50px;;
- }
-
-footer ul{
-    list-style-type: none
+.card{
+    height: 450px;
+    padding: 1em;
 }
-
-footer ul li{
-    margin: 1em 0;
-}
-footer li a{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: #FFD700;
-    
-}
-
-footer img{
-    max-width: 100px;
+.card-img {
+    max-width: 150px;         
     height: auto;
+    margin: 5px auto;
+}
+.card-body{
+    overflow-y: scroll;
+}
+
+/*ESTILOS PREDICCIONES*/
+.paper{
+    background-color: #EBD4B3;
+    border-radius: 8px;
+    padding: 2rem 3rem;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 1.2rem;
+}
+
+.paper h1{
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #4A3C2A;
+}
+
+.subtitle h6{
     text-align: center;
 }
 
-footer h4{
-    font-family: 'Simpsonfont', sans-serif;
-    color: #FFD700;
-    margin-bottom: 1em;
+.subtitle{
+    border-top: 1px solid #4A3C2A;
+    border-bottom: 1px solid #4A3C2A;
+    padding: 1rem 0
+}
+
+.notice-with-image{
+    text-align: center ;
+}
+.notice-with-image img{
+    max-width: 285px;
+    height: auto;
+}
+
+.notice-with-image p{
+    margin-top: 1rem;
+    font-size: 0.8rem;;
+}
+
+.news h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+}
+.news article{
+    padding: 1rem;
+    border-bottom: 1px solid #4A3C2A;
+}
+.vertical-divisor{
+    border-left: 1px solid #4A3C2A;
+    height: 100%;
+}
+
+.coupon{
+    border: 2px dashed #4A3C2A;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.coupon p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+.coupon-grill{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 13px;
+}
+
+/*ESTILOS JUEGO*/
+.card {
+    max-width: 18rem;
+    max-height: 410px;
+    margin: 15px;
+}
+
+.card h2{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.quiz h2, .quiz p{
+    font-family: Opera Sans, sans-serif;
     text-align: center;
 }
-.created{
-    text-align: center;
-    font-family: 'Simpsonfont', sans-serif;
-    margin-top: 1.2em;
+
+.quiz {
+    margin-top: 1rem;
 }
-.welcome{
-    text-align: center;;
+
+.result {
+    margin-top: 1.8rem;
+}
+
+/*ESTILOS CONTACTO*/
+.form-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    max-width: 800px;
+    background-color: #ffffff; 
+    margin: 1rem;  
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+.required-star::after {
+  content: " *";
+  color: red;
+}
+
+/*ESTILO MERCHANDISING*/
+.product{
+    max-height: 135px;
+}
+
+.addCart{
+    background-color: #000000;
+    color:#FFD700;
+     /* background-color: #FFD700; */
+}
+
+.addCart:hover{
+    background-color: #FFD700;
+    color: #000000;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
