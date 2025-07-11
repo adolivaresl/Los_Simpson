@@ -54,164 +54,191 @@
         </ul>
     </nav>   
     <main class="container-md">
+        <!-- Elemento toast para el mensaje de producto agregado al carrito -->
+        <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999">
+            <div id="toastCarrito" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                <div class="toast-body">
+                    Producto agregado al carro con éxito
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
         <div class="row row-cols-1 row-cols-md-4 g-4 container-cards">
             <div class="col">
                 <div class="card">
                     <img src="../imagenes/merchandising/tazones-1.png" class="card-img" alt="Tazones Homero y Marge">
-                    <div class="card-body">
+                    <div class="card-body description">
                         <h5 class="card-title">Tazones Homero y Marge pareja</h5>
                         <p class="card-text">$9.980</p>
-                        <button>Agregar al carrito</button>
+                        <p>Set de dos tazones de 325 ml con diseño envolvente de Homero y Marge.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/tazones-2.png" class="card-img" alt="Tazones Homero y Marge">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/tazones-2.png" class="card-img product" alt="Tazones Homero y Marge">
+                    <div class="card-body description">
                         <h5 class="card-title">Tazones Homero y Marge pareja</h5>
                         <p class="card-text">$9.980</p>
-                        <button>Agregar al carrito</button>
+                        <p>Set de dos tazones de 325 ml con diseño envolvente de Homero y Marge.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/Alcancia-1.png" class="card-img" alt="Alcancia Homero y Marge">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/Alcancia-1.png" class="card-img product" alt="Alcancia Homero y Marge">
+                    <div class="card-body description">
                         <h5 class="card-title">Alcancia Homero y Marge</h5>
                         <p class="card-text">$10.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>Divertida alcancía con diseño.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col ">
                 <div class="card">
-                    <img src="../imagenes/merchandising/polera-homero.png" class="card-img" alt="Polera Homero">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/polera-homero.png" class="card-img product" alt="Polera Homero">
+                    <div class="card-body description">
                         <h5 class="card-title">Polera Homero</h5>
                         <p class="card-text">$9.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>Polera con ilustración de Homero Simpson.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/Planner.png" class="card-img" alt="Planner">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/Planner.png" class="card-img product" alt="Planner">
+                    <div class="card-body description">
                         <h5 class="card-title">Planner </h5>
                         <p class="card-text">$7.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>Organiza tu semana con este práctico planner con temática de Los Simpson.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/alcancia-krusty.png" class="card-img" alt="Alcancia Kruty">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/alcancia-krusty.png" class="card-img product" alt="Alcancia Kruty">
+                    <div class="card-body description">
                         <h5 class="card-title">Alcancia Kruty</h5>
                         <p class="card-text">$10.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>Alcancía del payaso Krusty, divertida y colorida.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/calcetines-bart.png" class="card-img" alt="Calcetines Bart">
+                    <img src="../imagenes/merchandising/calcetines-bart.png" class="card-img product" alt="Calcetines Bart">
                     <h5 class="card-title">Calcetines Bart</h5>
-                    <div class="card-body">
+                    <div class="card-body description">
                         <p class="card-text">$2.490</p>
-                        <button>Agregar al carrito</button>
+                        <p>Cómodos, coloridos y con mucha actitud.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/calcetines-marge.png" class="card-img" alt="calcetines-marge">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/calcetines-marge.png" class="card-img product" alt="calcetines-marge">
+                    <div class="card-body description">
                         <h5 class="card-title">Calcetines Marge</h5>
                         <p class="card-text">$2.490</p>
-                        <button>Agregar al carrito</button>
+                        <p>Cómodos, coloridos y con mucha actitud.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/calcetines-homero.png" class="card-img" alt="Calcetines Homero">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/calcetines-homero.png" class="card-img product" alt="Calcetines Homero">
+                    <div class="card-body description">
                         <h5 class="card-title">Calcetines Homero</h5>
                         <p class="card-text">$2.490</p>
-                        <button>Agregar al carrito</button>
+                        <p>Cómodos, coloridos y con mucha actitud.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/abraham.png" class="card-img" alt="Funko Abraham">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/abraham.png" class="card-img product" alt="Funko Abraham">
+                    <div class="card-body description">
                         <h5 class="card-title">Funko Abraham Simpson</h5>
                         <p class="card-text">$20.990</p>
-                        <button>Agregar al carrito</button>
+                        <p> Figura Funko POP de Abraham Simpson.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/mr-burns.png" class="card-img" alt="Funko Mr. Burns">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/mr-burns.png" class="card-img product" alt="Funko Mr. Burns">
+                    <div class="card-body description">
                         <h5 class="card-title">Funko Mr. Burns</h5>
                         <p class="card-text">$17.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>El jefe más temido ahora en versión Funko.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/lisa.png" class="card-img" alt="Funko Lisa">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/lisa.png" class="card-img product" alt="Funko Lisa">
+                    <div class="card-body description">
                         <h5 class="card-title">Funko Lisa</h5>
                         <p class="card-text">$20.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>Lisa Simpson en su versión Funko POP.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/moe.png" class="card-img" alt="Funko Moe">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/moe.png" class="card-img product" alt="Funko Moe">
+                    <div class="card-body description">
                         <h5 class="card-title">Funko Moe</h5>
                         <p class="card-text">$17.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>El clásico cantinero Moe ahora en Funko POP. </p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/rafa.png" class="card-img" alt="Funko Rafa">
-                    <div class="card-body">
-                        <h5 class="card-title">Funko Rapha</h5>
+                    <img src="../imagenes/merchandising/rafa.png" class="card-img product" alt="Funko Rafa">
+                    <div class="card-body description">
+                        <h5 class="card-title">Funko Rafa</h5>
                         <p class="card-text">$20.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>La ternura y ocurrencias de Ralph Wiggum en esta figura Funko POP.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/lego edna.png" class="card-img" alt="Lego Edna Krabappel">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/lego edna.png" class="card-img product" alt="Lego Edna Krabappel">
+                    <div class="card-body description">
                         <h5 class="card-title">Lego Edna Krabappel</h5>
                         <p class="card-text">$14.990</p>
-                        <button>Agregar al carrito</button>
+                        <p>Minifigura de Lego de Edna Krabappel.</p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="../imagenes/merchandising/Api Apu.png" class="card-img" alt="Pin Apu">
-                    <div class="card-body">
+                    <img src="../imagenes/merchandising/Api Apu.png" class="card-img product" alt="Pin Apu">
+                    <div class="card-body description">
                         <h5 class="card-title">Pin Apu</h5>
                         <p class="card-text">$4.390</p>
-                        <button>Agregar al carrito</button>
+                        <p>Pin metálico de Apu. </p>
+                        <button class="addCart btn btn-md">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -254,5 +281,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="../js/add_cart.js"></script>
 </body>
 </html>

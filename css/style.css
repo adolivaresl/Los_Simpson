@@ -359,3 +359,25 @@ form{
   content: " *";
   color: red;
 }
+
+/*ESTILO MERCHANDISING*/
+.product{
+    max-height: 135px;
+}
+
+.addCart{
+    background-color: #000000;
+    color:#FFD700;
+     /* background-color: #FFD700; */
+}
+
+.addCart:hover{
+    background-color: #FFD700;
+    color: #000000;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
